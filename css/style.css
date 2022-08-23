@@ -32,10 +32,10 @@ h2 {
   font-size: 30px;
   text-transform: uppercase;
 }
-.row .wow.fadeInLeft.col-md-offset-1.col-md-5.col-sm-8 h2 {
+/* .row .wow .fadeInLeft .col-md-offset-1 .col-md-5 .col-sm-8 h2 {
 }
-.row .wow.fadeInLeft.col-md-offset-1.col-md-5.col-sm-8 h2 {
-}
+.row .wow .fadeInLeft.col-md-offset-1.col-md-5.col-sm-8 h2 {
+} */
 
 
 
@@ -92,7 +92,7 @@ footer {
 #detail h3, #video h3,
 #register h3,
 #venue h3,
-#contact h3 {
+#contact h3 ,#photos h3{
     padding-bottom: 12px;
 }
 
@@ -143,12 +143,69 @@ footer {
   background-size: cover !important;
 }
 
+/*---------------------------------------
+    photos section              
+-----------------------------------------*/
+#photos{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'poppins',sans-serif;
+} 
+#photos .container{
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 50px 8%;
+}
+#photos .gallery{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+#photos .gallery img{
+  width: 100%;
+  
+}
+ 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 /*---------------------------------------
     Preloader section              
------------------------------------------
-.preloader {
+-----------------------------------------*/
+/* .preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -191,7 +248,7 @@ footer {
     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
             transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
 
-
+ */
 
 /*---------------------------------------
     Navigation Links section              
@@ -536,6 +593,44 @@ footer {
     padding-top: 7rem;
     padding-bottom: 7rem;
 }
+#venue .btn-danger,
+
+#venue .btn {
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 14px 42px;
+    margin-top: 42px;
+    margin-right: 12px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#venue .btn-danger
+ {
+    background: #0759c8;
+    border-color: transparent;
+}
+
+
+
+#venue .btn-danger:hover {
+  background: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+
+#venue .btn-default:hover {
+    background: #ffffff;
+    color: #333333;
+    border-color: transparent;
+}
+
 
 #venue p {
   padding-top: 12px;
