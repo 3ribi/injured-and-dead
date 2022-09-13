@@ -1,34 +1,36 @@
 body{
-    margin: 0;
-    padding: 0;
+   
+    padding: 0;              
     font-family: montserrat;
-    background: linear-gradient(120deg,#1082d3,#c98f11) ;
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+    height: 115vh;
     overflow: hidden;
    
 }
 .center{
-    
+  
         position:absolute;
         top:50%;
         left:50%;
         transform:translate(-50%,-50%);
         width:400px;
         height: 400px;
-        background:white;
+        background:rgba(0, 0, 0, 0.5);
         border-radius:10px;
 }
 .center h1{
     text-align:center;
     padding: 0 0 20px 0;
-    border-bottom: 1px solid silver;
+    border-bottom: 1px solid rgb(166, 143, 143);
    }
    .center form{
     padding:0 40px;
     box-sizing:border-box;
    }
 form .txt_field{
-
+  
   position: relative;
   border-bottom : 2px solid #adadad;
   margin : 30px 0 ;
@@ -92,3 +94,12 @@ width: 100%;
     
       border-color:#2691d9;
       transition:.5s;}
+.center a{
+  width:200%;
+  height:200%;
+ font-size:18px;
+  color:#e9f4fb;
+  font-weight:700;
+  cursor:pointer;
+  outline:none;
+}
